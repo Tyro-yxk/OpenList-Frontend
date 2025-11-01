@@ -3,11 +3,14 @@ import { PageResp } from "~/types/resp"
 export enum ObjType {
   UNKNOWN,
   FOLDER,
-  // OFFICE,
+  OFFICE,
   VIDEO,
   AUDIO,
   TEXT,
   IMAGE,
+  ZIP,
+  IMAGES,
+  COMPRESS,
 }
 
 export interface Obj {
